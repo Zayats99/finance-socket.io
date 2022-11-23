@@ -1,0 +1,28 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.statusWrapper {
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	border: 1px solid rgb(158, 158, 158);
+	border-radius: 15px;
+}
+
+.circle {
+	margin-left: 20px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+
+.succes {
+	background-color: green;
+}
+
+.error {
+	background-color: red;
+}
